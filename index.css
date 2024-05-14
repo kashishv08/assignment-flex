@@ -1,0 +1,121 @@
+.container{
+    height:250px;
+    max-width: 500px; 
+    border: 2px solid green;
+    background-color:rgba(200, 234, 200, 0.753);
+    display: flex;
+    flex-direction: column;
+}
+
+#box-1{
+    background-color: rgba(179, 179, 222, 0.968);
+    border: blue 2px solid;
+    height: 80px; 
+    display: flex;
+    flex-direction: row;
+    margin: 7px;
+}
+#box-1-1{
+    border: orange 2px solid ;
+    background-color: rgb(240, 224, 195);
+    width: 166px;
+    margin: 5px;
+}
+
+#box-1-2{
+    border: orange 2px solid ;
+    background-color: rgb(240, 224, 195);
+    margin: 5px;
+    width: 166px;
+    display: flex;
+    flex-direction: row;
+}
+
+#box-1-2-1{
+    border: red 2px solid;
+    background-color: pink;
+    width: 83px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+#box-1-2-2{
+    border: red 2px solid;
+    background-color: pink;
+    width: 83px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+#box-1-3{
+    border: orange 2px solid ;
+    background-color: rgb(240, 224, 195);
+    margin: 5px;
+    width: 166px;
+}
+
+#box-2{
+    display: flex;
+    height: 100px;
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-bottom: 7px;
+}
+
+#box-2-1{
+    background-color: rgb(241, 123, 123);
+    border: brown 2px solid ;
+    padding: 20px;
+    display: flex;
+    flex-direction: row; 
+    width: 250px;
+}
+
+#box-2-2{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin-left: 4px;
+}
+
+#box-2-2-1{
+    background-color: rgb(241, 123, 123);
+    border: brown 2px solid ;
+    padding: 20px;
+    height: 50px;
+    margin-bottom: 4px;
+}
+
+#box-2-2-2{
+    background-color: rgb(241, 123, 123);
+    border: brown 2px solid ;
+    padding: 20px;
+    height: 50px;
+}
+
+#box-3{
+    background-color: rgba(179, 179, 222, 0.968);
+    border: blue 2px solid;
+    height:80px; 
+    display: flex;
+    flex-direction: row;
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-bottom: 7px;
+}
+
+.box-3-1{
+    border: purple 2px solid;
+    background-color: rgb(206, 123, 206);
+    width: 166px;
+    margin: 5px;
+}
+
+.box-3-2{
+    border: orange 2px solid ;
+    background-color: rgb(240, 224, 195);
+    width: 83px;
+    margin:5px 2px;
+}
